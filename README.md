@@ -1,7 +1,7 @@
 # crowd_sourcing
 A website that help Special needs families to start fund-raising and request goods and allow other people to donate money and goods. Developed by Raninder Dhillon, Neema Patel and Parghuzzat
 
-Features
+## Features
 
 Login/signup
 Add new goods and create fundraisers
@@ -19,7 +19,7 @@ Server: The server is a PostgresSQL Database with express nodejs built ontop of 
 
 Client: The client folder is a react app built seperately from the server which run by command: npm start. It runs at http://localhost:3000
 
-Dependencies
+## Dependencies
 
 Node.js
 React
@@ -29,7 +29,8 @@ bcrypt
 cors
 pg
 stripe
-Final Product
+
+## Final Product
 ![About page](https://raw.githubusercontent.com/raninder/crowd_funding/main/screenshots/About.png)
 ![Donate Money](https://github.com/raninder/crowd_funding/blob/main/screenshots/fund-raising.png)
 ![Fundraising](https://github.com/raninder/crowd_funding/blob/main/screenshots/form.png)
