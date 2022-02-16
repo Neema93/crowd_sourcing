@@ -1,6 +1,6 @@
 import React from 'react';
-import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+// import { Fade } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 import './style.css';
 
 const fadeImages = [
@@ -26,13 +26,13 @@ const fadeProperties = {
 export default function Slideshow(){
     return (
       <div className="slide-container">
-      <Fade {...fadeProperties}>
+      {/* <Fade {...fadeProperties}>
         {fadeImages.map(src => (
              <div className="each-fade">
                <img className='slide-img' src={src} alt="About Us" />
              </div> ))
         }
-      </Fade>
+      </Fade> */}
     </div>
      
     )

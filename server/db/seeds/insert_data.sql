@@ -4,16 +4,7 @@ INSERT INTO users (email,passwordhash,first_name,last_name,phone_number,s_addres
   ('patelheeya@gmail.com','12345','Heeya','Patel',90546967848,'36 brittania ave','oshawa','ontario','L1L0L8'),
   ('patelMeet@gmail.com','12345','Meet','Patel',9057894567,'20 brittania ave','oshawa','ontario','L1l0L8'),
   ('Raninder@gmail.com','12345','Raninder','Dhillon',90546967834,'40 wildfeild ave','oshawa','ontario','L1L9H8'),
-  ('test2@test.com','12345','Fname1','Lname1',1234567890,'11 ABC1 Cres','Mississauga','ontario','L5x 0P1'),
-  ('test3@test.com','12345','Fname2','Lname2',1234567890,'11 ABC2 Cres','Mississauga','ontario','L5x 0P2'),
-  ('test4@test.com','12345','Fname3','Lname3',1234567890,'11 ABC3 Cres','Mississauga','ontario','L5x 0P3'),
-  ('test5@test.com','12345','Fnam4','Lname4',1234567890,'11 ABC4 Cres','Mississauga','ontario','L5x 0P4'),
-  ('test6@test.com','12345','Fname5','Lname5',1234567890,'11 ABC5 Cres','Mississauga','ontario','L5x 0P5'),
-  ('test7@test.com','12345','Fname6','Lname6',1234567890,'11 ABC6 Cres','Mississauga','ontario','L5x 0P6'),
-  ('test8@test.com','12345','Fname7','Lname7',1234567890,'11 ABC7 Cres','Mississauga','ontario','L5x 0P7'),
-  ('test9@test.com','12345','Fname8','Lname8',1234567890,'11 ABC8 Cres','Mississauga','ontario','L5x 0P8'),
-  ('test10@test.com','12345','Fname9','Lname9',1234567890,'11 ABC9 Cres','Mississauga','ontario','L5x 0P9');
-   
+  
 
 
 INSERT INTO fund_categories (name)

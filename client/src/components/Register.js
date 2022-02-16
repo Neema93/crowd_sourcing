@@ -52,12 +52,13 @@ export default function Register(props) {
       localStorage.setItem("userID", res.data.id);
       localStorage.setItem("email", res.data.email);
       alert("Registered successfully");
-      handleReset();
-      history.push("/Homepage");
+     
     })
     .catch((error) => {
       alert(error.response.data.message)
     });
+    handleReset();
+    history.push("/Homepage");
   }
   function handleReset(){
     setEmail("");

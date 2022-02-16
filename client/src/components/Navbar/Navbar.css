@@ -30,6 +30,11 @@
   color: black;
   font-weight: bold;
 }
+.nav-menu-login {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
 .login, .signup {
   width: 150px;

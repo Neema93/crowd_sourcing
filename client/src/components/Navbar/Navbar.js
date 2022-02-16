@@ -34,6 +34,9 @@ export default function Navbar(props) {
   const handleClick = () => {
     setState({clicked : ! state.clicked})
   }
+  // const handleRegister = () => {
+  //   history.push("/Register")
+  // }
   return(
       <nav className="NavbarItems">
         <a className="navbar-logo" href="/Homepage"><img src="/images/logo.png"/></a>
@@ -68,13 +71,17 @@ export default function Navbar(props) {
         :
         <>
           <div className="login-btn">
-              <button className="login" onClick={() => history.push( {pathname: '/Login'})}>
+              <button className="login">
+              <a className="nav-menu-login" href={"/Login"}>
                 Log-in
+                </a>
               </button>
             </div>
             <div className="signup-btn">
-              <button className="signup" onClick={() => history.push("/Register")}>
+              <button className="signup">
+              <a className="nav-menu-login" href={"/Register"}>
                 Sign-Up
+                </a>
               </button>
             </div>
           </>

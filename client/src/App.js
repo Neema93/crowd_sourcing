@@ -34,6 +34,7 @@ export default function App() {
 <Navbar/>
       <Router>
         <Route path="/Homepage" component={Homepage}/>
+        <Route path="/Register" component={Register}/>
         {/* <Route path="/"><Homepage /></Route> */}
         <Route path="/fundrasising" component={Fundraising} />
         <Route path="/fundrasisingoption" component={FundraisingOption} />
@@ -42,7 +43,7 @@ export default function App() {
         <Route path="/requestgoods/*" component={Products} />
         <Route path="/about" component={About} />
         <Route path="/Login"><Login setLoginUser={setLoginUser}/></Route>
-        <Route path="/Register"><Register/></Route>
+        {/* <Route path="/Register"><Register/></Route> */}
         {/* <Route path="/DonateGoods">< DonateGoods/></Route> */}
         <Route path="/Fundraising/">< Fundraising/></Route>
         <Route path="/DonateMoney/">< DonateMoney/></Route>
